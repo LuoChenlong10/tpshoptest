@@ -1,0 +1,320 @@
+[INFO][2024-12-16 21:03:51,427][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="a5982f09c9e040d399996cdabd66e8e6")>
+[INFO][2024-12-16 21:03:51,428][login.page_click_login] [15]: [PageLogin]:正在点击('partial link text', '登录')登录
+[INFO][2024-12-16 21:03:51,428][base.base_click] [44]: [base]:正在点击元素：('partial link text', '登录')
+[INFO][2024-12-16 21:03:51,904][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：13100000001，密码：123456，验证码：8888
+[INFO][2024-12-16 21:03:51,904][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000001
+[INFO][2024-12-16 21:03:51,904][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:03:51,904][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:03:51,937][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000001
+[INFO][2024-12-16 21:03:51,976][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:03:51,976][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:03:51,976][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:03:51,999][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:03:52,040][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:03:52,040][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:03:52,040][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:03:52,064][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:03:52,087][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:03:52,087][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:03:54,148][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:03:54,333][test_login.test_login] [69]: 登陆失败：'账号不存在!' != 'false'
+- 账号不存在!
++ false
+
+[INFO][2024-12-16 21:03:54,333][login.page_error_text_sure] [44]: [PageLogin]:正在对元素('css selector', '.layui-layer-btn0')进行确认操作
+[INFO][2024-12-16 21:03:54,333][base.base_click] [44]: [base]:正在点击元素：('css selector', '.layui-layer-btn0')
+[INFO][2024-12-16 21:03:54,384][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：13100000000，密码：error，验证码：8888
+[INFO][2024-12-16 21:03:54,384][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:03:54,384][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:03:54,392][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:03:54,405][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:03:54,457][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：error
+[INFO][2024-12-16 21:03:54,457][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:03:54,457][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:03:54,472][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：error
+[INFO][2024-12-16 21:03:54,522][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:03:54,523][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:03:54,524][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:03:54,539][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:03:54,575][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:03:54,575][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:03:56,621][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:03:56,771][test_login.test_login] [69]: 登陆失败：'密码错误!' != 'false'
+- 密码错误!
++ false
+
+[INFO][2024-12-16 21:03:56,771][login.page_error_text_sure] [44]: [PageLogin]:正在对元素('css selector', '.layui-layer-btn0')进行确认操作
+[INFO][2024-12-16 21:03:56,787][base.base_click] [44]: [base]:正在点击元素：('css selector', '.layui-layer-btn0')
+[INFO][2024-12-16 21:03:56,825][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：，密码：123456，验证码：8888
+[INFO][2024-12-16 21:03:56,825][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：
+[INFO][2024-12-16 21:03:56,825][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:03:56,825][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:03:56,842][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：
+[INFO][2024-12-16 21:03:56,875][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:03:56,875][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:03:56,875][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:03:56,910][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:03:56,944][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:03:56,944][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:03:56,958][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:03:56,978][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:03:57,012][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:03:57,012][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:03:59,058][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:03:59,239][test_login.test_login] [69]: 登陆失败：'用户名不能为空!' != 'false'
+- 用户名不能为空!
++ false
+
+[INFO][2024-12-16 21:03:59,239][login.page_error_text_sure] [44]: [PageLogin]:正在对元素('css selector', '.layui-layer-btn0')进行确认操作
+[INFO][2024-12-16 21:03:59,239][base.base_click] [44]: [base]:正在点击元素：('css selector', '.layui-layer-btn0')
+[INFO][2024-12-16 21:03:59,284][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：13100000000，密码：，验证码：8888
+[INFO][2024-12-16 21:03:59,284][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:03:59,284][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:03:59,284][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:03:59,295][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:03:59,346][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：
+[INFO][2024-12-16 21:03:59,346][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:03:59,346][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:03:59,361][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：
+[INFO][2024-12-16 21:03:59,394][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:03:59,394][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:03:59,394][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:03:59,412][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:03:59,445][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:03:59,445][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:04:01,498][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:04:01,675][test_login.test_login] [69]: 登陆失败：'密码不能为空!' != 'false'
+- 密码不能为空!
++ false
+
+[INFO][2024-12-16 21:04:01,675][login.page_error_text_sure] [44]: [PageLogin]:正在对元素('css selector', '.layui-layer-btn0')进行确认操作
+[INFO][2024-12-16 21:04:01,675][base.base_click] [44]: [base]:正在点击元素：('css selector', '.layui-layer-btn0')
+[INFO][2024-12-16 21:04:01,718][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：13100000000，密码：123456，验证码：
+[INFO][2024-12-16 21:04:01,718][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:04:01,718][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:04:01,718][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:04:01,731][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:04:01,798][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:04:01,798][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:04:01,798][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:04:01,814][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:04:01,848][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：
+[INFO][2024-12-16 21:04:01,848][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:04:01,848][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:04:01,864][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：
+[INFO][2024-12-16 21:04:01,897][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:04:01,897][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:04:03,942][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:04:04,111][test_login.test_login] [69]: 登陆失败：'验证码不能为空!' != 'false'
+- 验证码不能为空!
++ false
+
+[INFO][2024-12-16 21:04:04,111][login.page_error_text_sure] [44]: [PageLogin]:正在对元素('css selector', '.layui-layer-btn0')进行确认操作
+[INFO][2024-12-16 21:04:04,111][base.base_click] [44]: [base]:正在点击元素：('css selector', '.layui-layer-btn0')
+[INFO][2024-12-16 21:04:04,154][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：152281，密码：123456，验证码：8888
+[INFO][2024-12-16 21:04:04,154][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：152281
+[INFO][2024-12-16 21:04:04,154][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:04:04,154][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:04:04,167][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：152281
+[INFO][2024-12-16 21:04:04,219][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:04:04,219][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:04:04,233][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:04:04,252][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:04:04,286][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:04:04,286][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:04:04,286][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:04:04,315][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:04:04,333][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:04:04,333][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:04:06,391][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:04:06,564][test_login.test_login] [69]: 登陆失败：'账号格式不匹配!' != 'false'
+- 账号格式不匹配!
++ false
+
+[INFO][2024-12-16 21:04:06,564][login.page_error_text_sure] [44]: [PageLogin]:正在对元素('css selector', '.layui-layer-btn0')进行确认操作
+[INFO][2024-12-16 21:04:06,564][base.base_click] [44]: [base]:正在点击元素：('css selector', '.layui-layer-btn0')
+[INFO][2024-12-16 21:04:06,606][login.page_login] [67]: [PageLogin]:正在进行登录操作，用户名：13100000000，密码：123456，验证码：8888
+[INFO][2024-12-16 21:04:06,606][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:04:06,606][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:04:06,606][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:04:06,619][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:04:06,671][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:04:06,671][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:04:06,686][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:04:06,704][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:04:06,737][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:04:06,737][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:04:06,737][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:04:06,752][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:04:06,787][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:04:06,787][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:04:08,837][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.layui-layer-content')
+[ERROR][2024-12-16 21:04:19,012][test_login.test_login] [73]: 出错了：Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6ED296CB5+28821]
+	(No symbol) [0x00007FF6ED203840]
+	(No symbol) [0x00007FF6ED0A578A]
+	(No symbol) [0x00007FF6ED0F91BE]
+	(No symbol) [0x00007FF6ED0F94AC]
+	(No symbol) [0x00007FF6ED142647]
+	(No symbol) [0x00007FF6ED11F33F]
+	(No symbol) [0x00007FF6ED13F412]
+	(No symbol) [0x00007FF6ED11F0A3]
+	(No symbol) [0x00007FF6ED0EA778]
+	(No symbol) [0x00007FF6ED0EB8E1]
+	GetHandleVerifier [0x00007FF6ED5CFCAD+3408013]
+	GetHandleVerifier [0x00007FF6ED5E741F+3504127]
+	GetHandleVerifier [0x00007FF6ED5DB5FD+3455453]
+	GetHandleVerifier [0x00007FF6ED35BDBB+835995]
+	(No symbol) [0x00007FF6ED20EB5F]
+	(No symbol) [0x00007FF6ED20A814]
+	(No symbol) [0x00007FF6ED20A9AD]
+	(No symbol) [0x00007FF6ED1FA199]
+	BaseThreadInitThunk [0x00007FF90AA7259D+29]
+	RtlUserThreadStart [0x00007FF90C20AF38+40]
+
+[INFO][2024-12-16 21:04:36,343][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="5003bafe57481bcca87dcf6dd5569e5d")>
+[INFO][2024-12-16 21:04:36,343][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="5003bafe57481bcca87dcf6dd5569e5d")>
+[INFO][2024-12-16 21:04:36,343][login.page_click_login] [15]: [PageLogin]:正在点击('partial link text', '登录')登录
+[INFO][2024-12-16 21:04:36,343][base.base_click] [44]: [base]:正在点击元素：('partial link text', '登录')
+[INFO][2024-12-16 21:04:36,943][login.page_login_success] [75]: [PageLogin]:正在执行登录操作，用户名：13100000000，密码：123456，验证码：8888
+[INFO][2024-12-16 21:04:36,943][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:04:36,943][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:04:36,956][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:04:36,969][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:04:37,003][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:04:37,003][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:04:37,023][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:04:37,037][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:04:37,077][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:04:37,077][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:04:37,086][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:04:37,100][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:04:37,121][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:04:37,121][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:04:39,185][cart.page_back_to_index] [16]: [CartPage]:正在打开首页 
+[INFO][2024-12-16 21:04:39,185][base.base_back_to_index] [69]: [base]:正在返回主页
+[INFO][2024-12-16 21:04:39,845][cart.page_search_goods] [22]: [CartPage]:正在输入值：华为
+[INFO][2024-12-16 21:04:39,845][base.base_input] [35]: [base]:正在获取元素：('id', 'q')
+[INFO][2024-12-16 21:04:39,856][base.base_input] [37]: [base]:正在对元素：('id', 'q')进行清空
+[INFO][2024-12-16 21:04:39,872][base.base_input] [39]: [base]:正在给('id', 'q')元素输入内容：华为
+[INFO][2024-12-16 21:04:39,907][cart.page_search_btn] [27]: [CartPage]:正在点击搜索按钮
+[INFO][2024-12-16 21:04:39,907][base.base_click] [44]: [base]:正在点击元素：('css selector', '.ecsc-search-button')
+[INFO][2024-12-16 21:04:41,502][cart.page_add_to_cart] [32]: [CartPage]:正在点击加入购物车
+[INFO][2024-12-16 21:04:41,502][base.base_click] [44]: [base]:正在点击元素：('css selector', 'div.xs_img .lazy-list')
+[INFO][2024-12-16 21:04:42,793][cart.page_cart_add_btn] [37]: [CartPage]:正在点击加入购物车，添加商品
+[INFO][2024-12-16 21:04:42,793][base.base_click] [44]: [base]:正在点击元素：('css selector', '#join_cart')
+[INFO][2024-12-16 21:05:18,464][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="17bb711c2a2172ed9e53742ae589c986")>
+[INFO][2024-12-16 21:05:18,465][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="17bb711c2a2172ed9e53742ae589c986")>
+[INFO][2024-12-16 21:05:18,465][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="17bb711c2a2172ed9e53742ae589c986")>
+[INFO][2024-12-16 21:05:18,465][login.page_click_login] [15]: [PageLogin]:正在点击('partial link text', '登录')登录
+[INFO][2024-12-16 21:05:18,465][base.base_click] [44]: [base]:正在点击元素：('partial link text', '登录')
+[INFO][2024-12-16 21:05:18,989][login.page_login_success] [75]: [PageLogin]:正在执行登录操作，用户名：13100000000，密码：123456，验证码：8888
+[INFO][2024-12-16 21:05:18,989][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:05:18,989][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:05:19,000][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:05:19,024][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:05:19,060][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:05:19,060][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:05:19,069][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:05:19,083][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:05:19,117][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:05:19,117][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:05:19,133][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:05:19,149][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:05:19,169][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:05:19,169][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:05:21,231][cart.page_back_to_index] [16]: [CartPage]:正在打开首页 
+[INFO][2024-12-16 21:05:21,231][base.base_back_to_index] [69]: [base]:正在返回主页
+[INFO][2024-12-16 21:05:21,922][cart_order_submit.page_cart_click] [15]: [CartOrderSubmit]:正在点击我的购物车
+[INFO][2024-12-16 21:05:21,923][base.base_click] [44]: [base]:正在点击元素：('css selector', '.c-n.fl')
+[INFO][2024-12-16 21:05:22,971][cart_order_submit.page_cart_all_select] [20]: [CartOrderSubmit]:正在全选商品
+[INFO][2024-12-16 21:05:22,971][base.base_click] [44]: [base]:正在点击元素：('css selector', '.checkall.checkFull')
+[INFO][2024-12-16 21:05:25,018][cart_order_submit.page_go_to_pay] [24]: [CartOrderSubmit]:正在点击去结算
+[INFO][2024-12-16 21:05:25,018][base.base_click] [44]: [base]:正在点击元素：('css selector', '.paytotal')
+[INFO][2024-12-16 21:05:30,656][cart_order_submit.page_submit_order] [29]: [CartOrderSubmit]:正在点击提交订单
+[INFO][2024-12-16 21:05:30,656][base.base_click] [44]: [base]:正在点击元素：('css selector', '#submit_order')
+[INFO][2024-12-16 21:05:36,980][cart_order_submit.page_get_ima] [40]: [CartOrderSubmit]:正在对提交结果截图
+[INFO][2024-12-16 21:05:37,069][test_cart_order_submit.test_submit_cart_order] [39]: [CartOrderSubmitTest]:正在进行断言
+[INFO][2024-12-16 21:05:37,069][cart_order_submit.page_submit_result] [34]: [CartOrderSubmit]:正在获取提交结果
+[INFO][2024-12-16 21:05:37,069][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.erhuh>h3')
+[INFO][2024-12-16 21:06:02,838][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="193441e14d982bf91f8c3374c384ba0c")>
+[INFO][2024-12-16 21:06:02,838][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="193441e14d982bf91f8c3374c384ba0c")>
+[INFO][2024-12-16 21:06:02,838][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="193441e14d982bf91f8c3374c384ba0c")>
+[INFO][2024-12-16 21:06:02,838][login.page_click_login] [15]: [PageLogin]:正在点击('partial link text', '登录')登录
+[INFO][2024-12-16 21:06:02,838][base.base_click] [44]: [base]:正在点击元素：('partial link text', '登录')
+[INFO][2024-12-16 21:06:03,443][login.page_login_success] [75]: [PageLogin]:正在执行登录操作，用户名：13100000000，密码：123456，验证码：8888
+[INFO][2024-12-16 21:06:03,443][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:06:03,443][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:06:03,450][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:06:03,475][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:06:03,510][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:06:03,510][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:06:03,519][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:06:03,532][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:06:03,573][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:06:03,573][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:06:03,581][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:06:03,596][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:06:03,617][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:06:03,617][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:06:05,683][cart.page_back_to_index] [16]: [CartPage]:正在打开首页 
+[INFO][2024-12-16 21:06:05,683][base.base_back_to_index] [69]: [base]:正在返回主页
+[INFO][2024-12-16 21:06:06,512][order_to_pay.page_pay_order_link] [11]: [OrderToPay]:正在点击我的订单链接
+[INFO][2024-12-16 21:06:06,512][base.base_click] [44]: [base]:正在点击元素：('partial link text', '我的订单')
+[INFO][2024-12-16 21:06:06,582][order_to_pay.page_pay_now] [16]: [page_pay_now]:正在切换窗口
+[INFO][2024-12-16 21:06:06,582][base.base_switch_window] [85]: [base]:正在切换窗口我的订单
+[INFO][2024-12-16 21:06:06,594][base.base_get_title_handel] [92]: [base]:正在遍历所有句柄：96FA312FD503867EF161F9BBF3B432AA->['96FA312FD503867EF161F9BBF3B432AA', '5BF5763AADCA105D7D25C5803177A223']
+[INFO][2024-12-16 21:06:06,604][base.base_get_title_handel] [94]: [base]:切换窗口：96FA312FD503867EF161F9BBF3B432AA
+[INFO][2024-12-16 21:06:06,611][base.base_get_title_handel] [92]: [base]:正在遍历所有句柄：5BF5763AADCA105D7D25C5803177A223->['96FA312FD503867EF161F9BBF3B432AA', '5BF5763AADCA105D7D25C5803177A223']
+[INFO][2024-12-16 21:06:06,622][base.base_get_title_handel] [94]: [base]:切换窗口：5BF5763AADCA105D7D25C5803177A223
+[INFO][2024-12-16 21:06:07,243][order_to_pay.page_pay_now] [18]: [page_pay_now]:正在点击立即支付
+[INFO][2024-12-16 21:06:07,243][base.base_click] [44]: [base]:正在点击元素：('css selector', '.ps_lj')
+[INFO][2024-12-16 21:06:07,314][order_to_pay.page_pay_way] [23]: [page_pay_way]:正在切换页面
+[INFO][2024-12-16 21:06:07,314][base.base_switch_window] [85]: [base]:正在切换窗口订单支付-开源商城 | B2C商城 | B2B2C商城 | 三级分销 | 免费商城 | 多用户商城 | tpshop｜thinkphp shop｜TPshop 免费开源系统 | 微商城
+[INFO][2024-12-16 21:06:07,323][base.base_get_title_handel] [92]: [base]:正在遍历所有句柄：96FA312FD503867EF161F9BBF3B432AA->['96FA312FD503867EF161F9BBF3B432AA', '5BF5763AADCA105D7D25C5803177A223', 'E35FEE875F96660CF69A0F69C851D3FE']
+[INFO][2024-12-16 21:06:07,333][base.base_get_title_handel] [94]: [base]:切换窗口：96FA312FD503867EF161F9BBF3B432AA
+[INFO][2024-12-16 21:06:07,338][base.base_get_title_handel] [92]: [base]:正在遍历所有句柄：5BF5763AADCA105D7D25C5803177A223->['96FA312FD503867EF161F9BBF3B432AA', '5BF5763AADCA105D7D25C5803177A223', 'E35FEE875F96660CF69A0F69C851D3FE']
+[INFO][2024-12-16 21:06:07,352][base.base_get_title_handel] [94]: [base]:切换窗口：5BF5763AADCA105D7D25C5803177A223
+[INFO][2024-12-16 21:06:07,361][base.base_get_title_handel] [92]: [base]:正在遍历所有句柄：E35FEE875F96660CF69A0F69C851D3FE->['96FA312FD503867EF161F9BBF3B432AA', '5BF5763AADCA105D7D25C5803177A223', 'E35FEE875F96660CF69A0F69C851D3FE']
+[INFO][2024-12-16 21:06:07,374][base.base_get_title_handel] [94]: [base]:切换窗口：E35FEE875F96660CF69A0F69C851D3FE
+[INFO][2024-12-16 21:06:07,841][order_to_pay.page_pay_way] [25]: [page_pay_way]:正在点击货到付款
+[INFO][2024-12-16 21:06:07,842][base.base_click] [44]: [base]:正在点击元素：('css selector', "[src='/plugins/payment/cod/logo.jpg']")
+[INFO][2024-12-16 21:06:07,886][order_to_pay.page_confirm_pay] [30]: [page_confirm_pay]:正在点击确认支付
+[INFO][2024-12-16 21:06:07,886][base.base_click] [44]: [base]:正在点击元素：('css selector', '.button-style-5.button-confirm-payment')
+[INFO][2024-12-16 21:06:10,097][order_to_pay.page_get_image] [41]: [page_get_image]:正在截图
+[INFO][2024-12-16 21:06:10,188][order_to_pay.page_get_pay_result] [35]: [page_get_pay_result]:正在获取支付结果
+[INFO][2024-12-16 21:06:10,188][base.base_get_text] [49]: [base]:正在获取文本值：('css selector', '.erhuh>h3')
+[INFO][2024-12-16 21:06:43,887][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="02150827113152429bbd75e8afac02dc")>
+[INFO][2024-12-16 21:06:43,887][base.__init__] [16]: [base:]正在获取初始化driver对象：<selenium.webdriver.chrome.webdriver.WebDriver (session="02150827113152429bbd75e8afac02dc")>
+[INFO][2024-12-16 21:06:43,887][login.page_click_login] [15]: [PageLogin]:正在点击('partial link text', '登录')登录
+[INFO][2024-12-16 21:06:43,887][base.base_click] [44]: [base]:正在点击元素：('partial link text', '登录')
+[INFO][2024-12-16 21:06:44,429][login.page_login_success] [75]: [PageLogin]:正在执行登录操作，用户名：13100000000，密码：123456，验证码：8888
+[INFO][2024-12-16 21:06:44,429][login.page_input_username] [20]: [PageLogin]:正在对元素：('id', 'username')输入用户名：13100000000
+[INFO][2024-12-16 21:06:44,429][base.base_input] [35]: [base]:正在获取元素：('id', 'username')
+[INFO][2024-12-16 21:06:44,429][base.base_input] [37]: [base]:正在对元素：('id', 'username')进行清空
+[INFO][2024-12-16 21:06:44,461][base.base_input] [39]: [base]:正在给('id', 'username')元素输入内容：13100000000
+[INFO][2024-12-16 21:06:44,504][login.page_input_password] [25]: [PageLogin]:正在对元素：('id', 'password')输入密码：123456
+[INFO][2024-12-16 21:06:44,504][base.base_input] [35]: [base]:正在获取元素：('id', 'password')
+[INFO][2024-12-16 21:06:44,511][base.base_input] [37]: [base]:正在对元素：('id', 'password')进行清空
+[INFO][2024-12-16 21:06:44,525][base.base_input] [39]: [base]:正在给('id', 'password')元素输入内容：123456
+[INFO][2024-12-16 21:06:44,567][login.page_input_verifycode] [30]: [PageLogin]:正在对元素：('id', 'verify_code')输入验证码：8888
+[INFO][2024-12-16 21:06:44,568][base.base_input] [35]: [base]:正在获取元素：('id', 'verify_code')
+[INFO][2024-12-16 21:06:44,568][base.base_input] [37]: [base]:正在对元素：('id', 'verify_code')进行清空
+[INFO][2024-12-16 21:06:44,589][base.base_input] [39]: [base]:正在给('id', 'verify_code')元素输入内容：8888
+[INFO][2024-12-16 21:06:44,632][login.page_click_login_button] [35]: [PageLogin]:正在对元素：('css selector', '.J-login-submit')进行点击
+[INFO][2024-12-16 21:06:44,632][base.base_click] [44]: [base]:正在点击元素：('css selector', '.J-login-submit')
+[INFO][2024-12-16 21:06:46,686][cart.page_back_to_index] [16]: [CartPage]:正在打开首页 
+[INFO][2024-12-16 21:06:46,686][base.base_back_to_index] [69]: [base]:正在返回主页
+[INFO][2024-12-16 21:06:47,377][cart.page_search_goods] [22]: [CartPage]:正在输入值：华为
+[INFO][2024-12-16 21:06:47,377][base.base_input] [35]: [base]:正在获取元素：('id', 'q')
+[INFO][2024-12-16 21:06:47,385][base.base_input] [37]: [base]:正在对元素：('id', 'q')进行清空
+[INFO][2024-12-16 21:06:47,397][base.base_input] [39]: [base]:正在给('id', 'q')元素输入内容：华为
+[INFO][2024-12-16 21:06:47,424][cart.page_search_btn] [27]: [CartPage]:正在点击搜索按钮
+[INFO][2024-12-16 21:06:47,424][base.base_click] [44]: [base]:正在点击元素：('css selector', '.ecsc-search-button')
+[INFO][2024-12-16 21:06:48,937][cart.page_add_to_cart] [32]: [CartPage]:正在点击加入购物车
+[INFO][2024-12-16 21:06:48,937][base.base_click] [44]: [base]:正在点击元素：('css selector', 'div.xs_img .lazy-list')
+[INFO][2024-12-16 21:06:50,150][cart.page_cart_add_btn] [37]: [CartPage]:正在点击加入购物车，添加商品
+[INFO][2024-12-16 21:06:50,150][base.base_click] [44]: [base]:正在点击元素：('css selector', '#join_cart')
+[INFO][2024-12-16 21:06:52,357][cart.page_cart_add_result] [42]: [CartPage]:正在切换iframe
+[INFO][2024-12-16 21:06:52,357][base.base_iframe_switch] [75]: [base]:正在切换iframe表单
